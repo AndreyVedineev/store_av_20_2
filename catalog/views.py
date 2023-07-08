@@ -6,6 +6,11 @@ def home(request):
 
 
 def contacts(request):
-    print(request.POST)
+    if request.method == 'POST':
+
+        name = request.POST.get('name')
+        print(name)
+
+    # print(request.POST)
     return render(request, 'catalog/contacts.html')
 
