@@ -6,5 +6,6 @@ def home(request):
 
 
 def contacts(request):
+    print(request.POST)
     return render(request, 'catalog/contacts.html')
 
