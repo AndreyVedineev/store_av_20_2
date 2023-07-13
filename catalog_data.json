@@ -1,0 +1,118 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "name": "Молочные продукты",
+      "description": "Молоко и продукты из молока"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "name": "Мясные продукты",
+      "description": "Мясо и продукты из мяса"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "name": "Рыбные продукты",
+      "description": "Рыба и продукты из рыбы"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 4,
+    "fields": {
+      "name": "Хлебобулочные изделия",
+      "description": "Хлеб: ржаной, пшеничный, ржано-пшеничный, пшеничноржаной всех видов – подовой и\r\nформовой; прочие сорта хлеба. Булочные изделия из муки разных сортов: батоны, булки,\r\nбагеты, плетенки, калачи, лепешки, рогалики, сайки и другие изделия."
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "name": "Кефир",
+      "Imag": "products/кефир.jpeg",
+      "category": 1,
+      "price": "102.20",
+      "date_of_creation": "2023-07-12",
+      "last_modified_date": "2023-07-12"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "name": "Говядина мраморная",
+      "Imag": "products/mramornaya-govyadina.jpg",
+      "category": 2,
+      "price": "800.00",
+      "date_of_creation": "2023-07-12",
+      "last_modified_date": "2023-07-12"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "name": "Судак охл.",
+      "Imag": "products/судак.jpeg",
+      "category": 3,
+      "price": "500.40",
+      "date_of_creation": "2023-07-12",
+      "last_modified_date": "2023-07-12"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 4,
+    "fields": {
+      "name": "Ряженка",
+      "Imag": "",
+      "category": 1,
+      "price": "99.99",
+      "date_of_creation": "2023-07-13",
+      "last_modified_date": "2023-07-13"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 11,
+    "fields": {
+      "name": "Сушки",
+      "Imag": "",
+      "category": 1,
+      "price": "5.50",
+      "date_of_creation": "2023-07-13",
+      "last_modified_date": "2023-07-13"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 12,
+    "fields": {
+      "name": "Сарделька",
+      "Imag": "",
+      "category": 2,
+      "price": "34.40",
+      "date_of_creation": "2023-07-13",
+      "last_modified_date": "2023-07-13"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 13,
+    "fields": {
+      "name": "Амур белый",
+      "Imag": "",
+      "category": 3,
+      "price": "1200.00",
+      "date_of_creation": "2023-07-13",
+      "last_modified_date": "2023-07-13"
+    }
+  }
+]
