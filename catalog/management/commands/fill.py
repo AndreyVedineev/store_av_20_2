@@ -13,7 +13,7 @@ class Command(BaseCommand):
         pk_4 = Category.objects.get(pk=4)
 
         product_list = [
-            {'name': 'Сушки', 'category': pk_1, 'price': 5.50},
+            {'name': 'Сушки', 'category': pk_4, 'price': 5.50},
             {'name': 'Сарделька', 'category': pk_2, 'price': 34.40},
             {'name': 'Амур белый', 'category': pk_3, 'price': 1200.00}
         ]
