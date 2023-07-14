@@ -15,7 +15,8 @@ class Command(BaseCommand):
         product_list = [
             {'name': 'Сушки', 'category': pk_4, 'price': 5.50},
             {'name': 'Сарделька', 'category': pk_2, 'price': 34.40},
-            {'name': 'Амур белый', 'category': pk_3, 'price': 1200.00}
+            {'name': 'Амур белый', 'category': pk_3, 'price': 1200.00},
+            {'name': 'Кефир', 'category': pk_1, 'price': 45.00}
         ]
         # for item in product_list:
         #     Product.objects.create(**item)
