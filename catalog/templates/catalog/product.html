@@ -1,4 +1,5 @@
 {% extends 'catalog/base.html' %}
+{% load my_tags %}
 {% block content %}
     <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
         <h1 class="display-4">{{ title }}</h1>
@@ -9,7 +10,7 @@
         <div class="row text-center">
             {% for object in object_list %}
                 <div class="col-3">
-                    <div class="card mb-4 box-shadow">
+                    <div class="card mb-4 box-shadow h-100 d-inline-block">
                         <div class="card-header">
                             <h4 class="my-0 font-weight-normal">{{ object.name | title }}</h4>
                         </div>
@@ -19,7 +20,11 @@
                                 <li>- {{ object.category }}</li>
                                 <li>- {{ object.date_of_creation }}</li>
                                 <li>- {{ object.last_modified_date }}</li>
-                                <li><img src="/media/{{ object.image }}" class="rounded mx-auto d-block"></li>
+                                class="rounded mx-auto d-block"></li>#}
+                                <li>
+                                    <img class="img-fluid rounded mx-auto d-block" src="{{ object.Imag | my_media }}"
+                                ></li>
+
                             </ul>
                             <button type="button" class="btn btn-lg btn-block btn-outline-primary">Купить</button>
                         </div>
